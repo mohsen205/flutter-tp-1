@@ -1,4 +1,4 @@
-package com.example.tp
+package com.example.connection
 
 import io.flutter.embedding.android.FlutterActivity
 

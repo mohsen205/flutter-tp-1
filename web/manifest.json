@@ -1,6 +1,6 @@
 {
-    "name": "tp",
-    "short_name": "tp",
+    "name": "connection",
+    "short_name": "connection",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

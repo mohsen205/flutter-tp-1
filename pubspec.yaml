@@ -1,4 +1,4 @@
-name: tp
+name: connection
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,6 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^2.0.12
+  http: ^0.13.0
+  intl: ^0.17.0
+  sqflite: ^2.0.0+3
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,6 +57,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  assets:
+    - assets/images/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
